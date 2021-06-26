@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #090b1a;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  width: 70vw;
+  height: 48vh;
+  border-radius: 2rem;
+}
+
+.left-section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #1b1938;
+  width: 50%;
+  margin: auto;
+  padding: 5rem 8rem 5rem 5rem;
+  border-radius: 2rem 0 0 2rem;
+}
+
+.left-section h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.left-section h1 span {
+  color: #aa5cdb;
+}
+
+.left-section .heading-info {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+  margin: 3rem 0rem 5rem 0;
+}
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stats .stats-heading {
+  font-size: 2rem;
+  color: white;
+}
+
+.stats .stats-info {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+
+.right-section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  position: relative;
+}
+
+.right-section .image {
+  border-radius: 0 2rem 2rem 0;
+  background: url("../images/image-header-desktop.jpg") center center/cover;
+  width: 100%;
+  height: 100%;
+}
+
+.right-section .overlay {
+  border-radius: 0 2rem 2rem 0;
+  position: absolute;
+  inset: 0 0 0 0;
+  background: rgba(170, 92, 219, 0.2);
+}
+/*# sourceMappingURL=styles.css.map */
