@@ -52,8 +52,8 @@ main {
   display: flex;
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
-  width: 70vw;
-  height: 48vh;
+  width: 75vw;
+  height: 60vh;
   border-radius: 2rem;
 }
 
@@ -64,25 +64,24 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   background: #1b1938;
   width: 50%;
+  height: 100%;
   margin: auto;
-  padding: 5rem 8rem 5rem 5rem;
+  padding: 5rem 10rem 5rem 5rem;
   border-radius: 2rem 0 0 2rem;
 }
 
 .left-section h1 {
   color: white;
-  font-size: 3.5rem;
+  font-size: calc(1.6rem + 1.2vw);
 }
 
 .left-section h1 span {
@@ -91,7 +90,7 @@ main {
 
 .left-section .heading-info {
   color: rgba(255, 255, 255, 0.75);
-  font-size: 1.5rem;
+  font-size: calc(0.3rem + 1vw);
   margin: 3rem 0rem 5rem 0;
 }
 
@@ -99,22 +98,25 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
+.stats .stat {
+  margin-right: 4rem;
+}
+
 .stats .stats-heading {
-  font-size: 2rem;
+  font-size: calc(0.7rem + 1.2vw);
+  margin-bottom: 1rem;
   color: white;
 }
 
 .stats .stats-info {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.75);
-  font-size: 1.5rem;
+  font-size: calc(0.1rem + 0.9vw);
 }
 
 .right-section {

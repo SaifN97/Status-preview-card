@@ -1,26 +1,26 @@
 .card {
   display: flex;
   flex-wrap: wrap-reverse;
-  width: 70vw;
-  height: 48vh;
+  width: 75vw;
+  height: 60vh;
   border-radius: 2rem;
 }
 
 .left-section {
   flex: 1 1 20rem;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background: $card-background;
   width: 50%;
+  height: 100%;
   margin: auto;
-  padding: 5rem 8rem 5rem 5rem;
+  padding: 5rem 10rem 5rem 5rem;
   border-radius: 2rem 0 0 2rem;
 
   h1 {
     color: $main-heading-stats;
-    font-size: 3.5rem;
+    font-size: calc(1.6rem + 1.2vw);
     span {
       color: $accent;
     }
@@ -28,24 +28,28 @@
 
   .heading-info {
     color: $main-paragraph;
-    font-size: 1.5rem;
+    font-size: calc(0.3rem + 1vw);
     margin: 3rem 0rem 5rem 0;
   }
 }
 
 .stats {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 
+  .stat {
+    margin-right: 4rem;
+  }
+
   .stats-heading {
-    font-size: 2rem;
+    font-size: calc(0.7rem + 1.2vw);
+    margin-bottom: 1rem;
     color: $main-heading-stats;
   }
   .stats-info {
     text-transform: uppercase;
     color: $main-paragraph;
-    font-size: 1.5rem;
+    font-size: calc(0.1rem + 0.9vw);
   }
 }
 
